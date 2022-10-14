@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  background-color: hsl(217, 54%, 11%);
+}
+
+#main-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qr-cont {
+  height: 500px;
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 3rem 5rem rgb(0 0 0 / 30%);
+}
+
+.imgCont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imgCont img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: all 1s ease-in-out;
+}
+
+div.viewImageContainer {
+  position: relative;
+}
+
+div.viewcontainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+div.viewcontainer img {
+  opacity: 0;
+  padding: 110px;
+  color: white;
+}
+
+div.viewcontainer img:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(0, 255, 247, 0.3);
+  transition: all 0.5s ease-in-out;
+}
+
+.qr-cont h3 {
+  line-height: 25px;
+  padding: 5px;
+  color: #f3f3f3;
+  font-size: 20px;
+  transition: all 1s ease-in;
+}
+
+.qr-cont h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.qr-cont p {
+  padding: 5px;
+  color: hsl(220, 15%, 55%);
+}
+
+div.ethContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+div.eth {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-size: 14px;
+}
+
+div.eth img,
+div.ethClock img {
+  padding-right: 5px;
+}
+
+div.ethClock {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: hsl(215, 51%, 70%);
+}
+
+div.border-bottom {
+  border-bottom: 1px solid hsl(220, 15%, 55%);
+  width: 100%;
+  margin-top: 20px;
+}
+
+div.avatar-sect {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+div.avatar-sect p {
+  font-size: 14px;
+}
+
+div.avatarContainer {
+  width: 25px;
+  margin-right: 20px;
+}
+
+div.avatarContainer img {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+  transition: all 1s ease-out;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+}
+
+@media (max-width: 500px) and (orientation: portrait) {
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+}
