@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/abdullah43577/nft-preview-card)
+- Live Site URL: [live site URL here](https://nftcardpreviewz.netlify.app/)
 
 ## My process
 
@@ -95,6 +95,6 @@ div.viewcontainer img:hover {
 
 ## Author
 
-- Website - [Abdullah Ayoola](https://www.your-site.com)
+- Website - [Abdullah Ayoola](https://github.com/abdullah43577/nft-preview-card)
 - Frontend Mentor - [@abdullah43577](https://www.frontendmentor.io/profile/abdullah43577)
 - Twitter - [@officialayo540](https://twitter.com/officialayo540)
