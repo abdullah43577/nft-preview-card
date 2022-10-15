@@ -163,6 +163,12 @@ footer {
     width: 250px;
     margin-bottom: 20px;
   }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    bottom: 10px;
+  }
 }
 
 @media (max-width: 500px) {
