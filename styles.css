@@ -157,14 +157,9 @@ footer {
   color: white;
 }
 
-@media (max-width: 500px) and (orientation: portrait) {
+@media (max-width: 500px) {
   .attribution {
     font-size: 11px;
     text-align: center;
-  }
-
-  .qr-cont {
-    height: 450px;
-    width: 250px;
   }
 }
